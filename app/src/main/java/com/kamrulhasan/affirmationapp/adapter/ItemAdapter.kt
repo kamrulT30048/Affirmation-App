@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -17,7 +18,8 @@ class ItemAdapter(private val context: Context,
     class ItemViewHolder(private val view: View)
         : RecyclerView.ViewHolder(view){
         val textView: TextView = view.findViewById(R.id.tv_item_title)
-        val textViewSerial: TextView = view.findViewById(R.id.tv_serial)
+        val textViewSerial: TextView = view.findViewById(R.id.tv_item_serial)
+        val imageView: ImageView = view.findViewById(R.id.iv_item_image)
 //        val cardLayout: LinearLayout = view.findViewById(R.id.ll_card)
     }
 
@@ -33,6 +35,7 @@ class ItemAdapter(private val context: Context,
         val item = dataset[position]
         val serial = position+1
         holder.textView.text = context.resources.getString(item.stringResourceId)
+        holder.imageView.setImageResource(item.imageResourceId)
         holder.textViewSerial.text = (serial).toString()
     }
 
