@@ -6,10 +6,9 @@
     android:layout_gravity="center"
     android:layout_margin="15dp"
     android:background="#FFFFFF"
-    android:orientation="vertical"
-    android:padding="10dp"
     android:elevation="3dp"
-    >
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tv_item_serial"
@@ -20,8 +19,7 @@
         android:background="@color/purple_700"
         android:padding="4dp"
         android:textColor="@color/white"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/iv_item_image"

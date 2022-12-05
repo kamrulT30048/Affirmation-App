@@ -22,9 +22,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val myDataset = DataSource().loadAffirmation()
-        val recyclerView = binding.rvParentRecycleView
-        recyclerView ?. adapter = ItemAdapter(this,myDataset)
-//        recyclerView.setHasFixedSize()
+        val recyclerView = binding.rvStudentsInfo
+        recyclerView ?. adapter = ItemAdapter(this, myDataset)
+        recyclerView ?. setHasFixedSize(true)
+
+//        val recyclerView = binding.rvParentRecycleView
+//        recyclerView?.adapter = ItemAdapter(this, myDataset)
+//        recyclerView ?. setHasFixedSize(true)
 
 //        binding.tvShow.text = DataSource().loadAffirmation().size.toString()
     }

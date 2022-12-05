@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_info_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:elevation="3dp">
+
+    <ImageView
+        android:id="@+id/iv_student_image"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:src="@drawable/image1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_student_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/sampleName"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@id/iv_student_image"
+        app:layout_constraintTop_toTopOf="@id/iv_student_image" />
+
+    <TextView
+        android:id="@+id/tv_trainee_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/sampleId"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/tv_student_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_student_name" />
+
+    <TextView
+        android:id="@+id/tv_blood_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/sampleBloodGroup"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/tv_student_name"
+        app:layout_constraintTop_toBottomOf="@id/tv_trainee_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

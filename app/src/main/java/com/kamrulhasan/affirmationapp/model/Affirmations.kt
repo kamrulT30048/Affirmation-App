@@ -4,5 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class Affirmation(
-    @StringRes val stringResourceId: Int,
+    @StringRes val personName: Int,
+    @StringRes val personId: Int,
+    @StringRes val bloodGroup: Int,
     @DrawableRes val imageResourceId: Int)
