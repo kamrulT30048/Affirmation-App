@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">BJIT ACADEMY</string>
-    <string name="person1">Person 1</string>
-    <string name="person2">Person 2</string>
-    <string name="person3">Person 3</string>
-    <string name="person4">Person 4</string>
-    <string name="person5">Person 5</string>
-    <string name="person6">Person 6</string>
-    <string name="person7">Person 7</string>
-    <string name="person8">Person 8</string>
-    <string name="person9">Person 9</string>
-    <string name="person10">Person 10</string>
+    <string name="person1">Abedin</string>
+    <string name="person2">Nur</string>
+    <string name="person3">Shantanu</string>
+    <string name="person4">Ashraful</string>
+    <string name="person5">Kamrul</string>
+    <string name="person6">Aqib</string>
+    <string name="person7">Shezan</string>
+    <string name="person8">Shadhin</string>
+    <string name="person9">Saiful</string>
+    <string name="person10">Abdullah</string>
     <string name="id1">T-30001</string>
     <string name="id2">T-30002</string>
     <string name="id3">T-30003</string>
@@ -33,4 +33,5 @@
     <string name="sampleName">Sample Name</string>
     <string name="sampleId">T-30000</string>
     <string name="sampleBloodGroup"><b>O-</b></string>
+    <string name="search">Search</string>
 </resources>

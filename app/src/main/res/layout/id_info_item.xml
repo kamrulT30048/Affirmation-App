@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:background="#FFFFFF"
     android:layout_margin="10dp"
-    android:padding="5dp"
-    android:elevation="3dp">
+    android:background="#FFFFFF"
+    android:elevation="3dp"
+    android:padding="5dp">
 
     <ImageView
         android:id="@+id/iv_student_image"
@@ -22,8 +22,8 @@
         android:id="@+id/tv_student_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
         android:text="@string/sampleName"
         android:textColor="@color/black"
         android:textSize="20sp"

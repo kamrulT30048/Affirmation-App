@@ -1,18 +1,17 @@
 package com.kamrulhasan.affirmationapp.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.kamrulhasan.affirmationapp.MainActivity
 import com.kamrulhasan.affirmationapp.R
 import com.kamrulhasan.affirmationapp.model.Affirmation
 
 class ItemAdapter(
-    private val context: Context,
+    private val context: MainActivity,
     private val dataset: List<Affirmation>
 ) : RecyclerView.Adapter<ItemAdapter.ItemViewHolder>() {
 

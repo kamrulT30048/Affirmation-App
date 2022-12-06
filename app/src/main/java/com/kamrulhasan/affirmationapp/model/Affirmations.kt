@@ -7,4 +7,5 @@ data class Affirmation(
     @StringRes val personName: Int,
     @StringRes val personId: Int,
     @StringRes val bloodGroup: Int,
-    @DrawableRes val imageResourceId: Int)
+    @DrawableRes val imageResourceId: Int
+)

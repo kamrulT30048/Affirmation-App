@@ -5,7 +5,7 @@ import com.kamrulhasan.affirmationapp.model.Affirmation
 
 
 class DataSource {
-    fun loadAffirmation(): List<Affirmation>{
+    fun loadAffirmation(): List<Affirmation> {
         return listOf(
             Affirmation(R.string.person1, R.string.id1, R.string.A_negative, R.drawable.image1),
             Affirmation(R.string.person2, R.string.id2, R.string.AB_positive, R.drawable.image2),
